@@ -46,7 +46,7 @@
     .sectionContent{
         width: 100%;
         height: max-content;
-        padding: 2rem initial;
+        padding: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -176,7 +176,9 @@
                         font-size: 15px;
                         color: var(--text-color);
                         transition: 0.3s ease-in-out;
-
+                        a{
+                            color: var(--text-color);
+                        }
                         .icon{
                             font-size: 15px;
                             color: var(--grey-text);
@@ -196,3 +198,70 @@
         }
     }
   }
+
+@media screen and (min-width: 500px){
+    .footer{
+        .sectionContent{
+            .footerCard{
+                .footerLink{
+                    grid-template-columns: repeat(3,1fr);
+                    padding-bottom: 1rem;
+                }
+
+                .footerDiv{
+                    justify-content: space-between;
+                    flex-direction: row;
+
+                    small{
+                        font-size: 14px;
+                        color: var(--white-color);
+                    }
+                }
+            }            
+        }
+    }
+}
+
+@media screen and (min-width: 660px){
+    .footer{
+        .sectionContent{
+            .contactDiv{
+                flex-direction: row !important;
+                justify-content: space-between;
+
+                .inputDiv{
+                    width: max-content;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    input{
+                        width: 80%;
+                    }
+
+                    .btn{
+                        width: max-content;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 840px){
+    .footer{
+        padding: 5rem 0;
+
+        .sectionContent{
+            .footerCard{
+                flex-direction: row;
+                padding: 2rem 2rem 4rem;
+                gap: 2rem;
+
+                .footerLink{
+                    grid-template-columns: repeat(4,1fr);
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
+}

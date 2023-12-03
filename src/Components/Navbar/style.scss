@@ -108,3 +108,64 @@
 
 }
 
+@media screen and (min-width: 769px){
+    .toggleNavbar, .closeNavbar{
+        display: none;
+    }
+
+    .header{
+        padding: 1.5rem 2rem;
+
+        .navBar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+
+            .navItem{
+                .navLink{
+                    color: var(--text-color);
+                    padding:  0 0.45rem;
+                    font-size: 1rem;
+                    font-weight: 600;
+
+                    &:hover{
+                        color: var(--primary-color);
+                    }
+                }
+            }
+
+            .btn-outline{
+                margin-left: 12px;
+                margin-top: 0;
+            }
+
+            .btn{
+                margin-left: 1rem;
+                
+                a{
+                    color: var(--white-color);
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px){
+    .header{
+        .navBar{
+            .navLists{
+                .navItem{
+                    padding: 0 0.7rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1240px){
+    .header{
+        padding: 1rem 8.5rem;
+    }
+}

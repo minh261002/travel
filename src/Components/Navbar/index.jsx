@@ -2,9 +2,19 @@ import './style.scss'
 import { SiYourtraveldottv } from "react-icons/si";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { TbGridDots } from "react-icons/tb";
+import { FaChevronDown } from "react-icons/fa";
+
 import { useState } from 'react';
 
 const Navbar = () => {
+
+    const styleLink = {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        gap: '8px'
+    };
+
 
     const [active, setActive] = useState('navBar');
 
@@ -44,7 +54,11 @@ const Navbar = () => {
                         </li>
 
                         <button className='btn'>
-                            <a href="" className='navLink'>Đăng Ký</a>
+                            <a href="" className='navLink' style={styleLink}>Tài Khoản <FaChevronDown /></a>
+                        </button>
+
+                        <button className='btn-outline'>
+                            <a href="" className='navLink'>Booking Now</a>
                         </button>
 
                         <div onClick={removeNavbar} className="closeNavbar">

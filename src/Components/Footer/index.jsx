@@ -49,7 +49,7 @@ const Footer = () => {
                         </div>
 
                         <div data-aos="fade-up" className="footerParagraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ratione quis earum voluptates enim aperiam quos officia. Iste, laboriosam consequatur!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, maiores hic id qui officia praesentium facere, obcaecati, molestias consequatur alias sunt nesciunt? Cum aspernatur distinctio cupiditate, quo laudantium quam natus magni commodi, vero magnam molestiae dolorem rem. Molestias commodi, voluptatibus delectus praesentium, totam sunt ea quas, fuga quis optio dolore!
                         </div>
 
                         <div data-aos="fade-up" className="footerSocial">
@@ -62,7 +62,7 @@ const Footer = () => {
                     <div data-aos="fade-up" className="footerLink grid">
                         <div className="linkGroup">
                             <span className="groupTitle">
-                                OUR AGENCY
+                                Về TravelTrip.
                             </span>
 
                             <li className="footerList flex">
@@ -93,7 +93,38 @@ const Footer = () => {
 
                         <div className="linkGroup">
                             <span className="groupTitle">
-                                OUR AGENCY
+                                Về TravelTrip.
+                            </span>
+
+                            <li className="footerList flex">
+                                <FaChevronRight className='icon' />
+                                <a href="#">Giới Thiệu</a>
+                            </li>
+
+                            <li className="footerList flex">
+                                <FaChevronRight className='icon' />
+                                <a href="#">Liên Hệ</a>
+                            </li>
+
+                            <li className="footerList flex">
+                                <FaChevronRight className='icon' />
+                                <a href="#">Tuyển Dụng</a>
+                            </li>
+
+                            <li className="footerList flex">
+                                <FaChevronRight className='icon' />
+                                <a href="#">Press</a>
+                            </li>
+
+                            <li className="footerList flex">
+                                <FaChevronRight className='icon' />
+                                <a href="#">Blog</a>
+                            </li>
+                        </div>
+
+                        <div className="linkGroup">
+                            <span className="groupTitle">
+                                Về TravelTrip.
                             </span>
 
                             <li className="footerList flex">
@@ -124,38 +155,7 @@ const Footer = () => {
 
                         <div className="linkGroup">
                             <span className="groupTitle">
-                                OUR AGENCY
-                            </span>
-
-                            <li className="footerList flex">
-                                <FaChevronRight className='icon' />
-                                <a href="#">About us</a>
-                            </li>
-
-                            <li className="footerList flex">
-                                <FaChevronRight className='icon' />
-                                <a href="#">Contact us</a>
-                            </li>
-
-                            <li className="footerList flex">
-                                <FaChevronRight className='icon' />
-                                <a href="#">Careers</a>
-                            </li>
-
-                            <li className="footerList flex">
-                                <FaChevronRight className='icon' />
-                                <a href="#">Press</a>
-                            </li>
-
-                            <li className="footerList flex">
-                                <FaChevronRight className='icon' />
-                                <a href="#">Blog</a>
-                            </li>
-                        </div>
-
-                        <div className="linkGroup">
-                            <span className="groupTitle">
-                                OUR AGENCY
+                                Về TravelTrip.
                             </span>
 
                             <li className="footerList flex">

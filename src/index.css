@@ -23,6 +23,10 @@
   --card-background:rgb(225, 225, 235);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a{
   text-decoration: none;
 }
@@ -72,6 +76,31 @@ li{
   background: var(--secondary-color);
 }
 
+.btn-outline{
+  padding: 0.6rem 1.5rem;
+  background: transparent;
+  border-radius: 3rem;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  margin-top: 12px;
+  transition: .3s ease-in-out;
+}
+
+.btn-outline a{
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.btn-outline:hover{
+  background: var(--gradien-color);
+  transition: .3s ease-in-out;
+}
+
+.btn-outline:hover a{
+  color: var(--white-color);
+}
+
 img,video{
   width: 100%;
   height: auto;
@@ -83,4 +112,21 @@ input{
 
 body{
   background:var(--body-color);
+}
+
+@media screen and (min-width: 1024px){
+  .container{
+    width: 80% !important; 
+    margin: auto !important;
+  }
+
+  .section{
+    padding: 6rem 0 4rem;
+  }
+}
+
+@media screen and (min-width: 2560px){
+  .body{
+    zoom: 1.7;
+  }
 }
