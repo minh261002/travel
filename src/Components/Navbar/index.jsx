@@ -21,7 +21,7 @@ const Navbar = () => {
             <header className="header flex">
                 <div className="logoDiv">
                     <a href="#" className='logo flex'>
-                        <h1><SiYourtraveldottv className='icon' />Travel.</h1>
+                        <h1><SiYourtraveldottv className='icon' />TravelTrip.</h1>
                     </a>
                 </div>
 
